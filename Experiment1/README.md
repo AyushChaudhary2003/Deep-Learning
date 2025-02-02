@@ -5,6 +5,7 @@ The implementation avoids using high-level deep learning frameworks like TensorF
 
 Key Steps
 1. Dataset Preparation
+
 -> The MNIST dataset is loaded from IDX files, which contain images and labels.
    
 -> Each 28x28 image is flattened into a 784-dimensional vector.
