@@ -47,7 +47,7 @@ A simple 2-layer neural network is implemented:
 
 ---
 ## Repository Link
-🔗 [https://github.com/AyushChaudhary2003/Deep-Learning/tree/main/Experiment2](https://github.com/AyushChaudhary2003/Deep-Learning/tree/main/Experiment2)
+🔗 [https://github.com/AyushChaudhary2003/Deep-Learning/tree/main/Experiment1](https://github.com/AyushChaudhary2003/Deep-Learning/tree/main/Experiment1)
 
 ---
 
