@@ -13,33 +13,52 @@ Key Steps
 
 -> Labels are one-hot encoded to represent each digit as a 10-dimensional vector.
 
-3. Neural Network Architecture
+2. Neural Network Architecture
+
 -> A simple 2-layer neural network is implemented:
+
 -> Input Layer: 784 neurons (one for each pixel in the flattened image).
+
 -> Hidden Layer: 128 neurons with ReLU activation.
+
 -> Output Layer: 10 neurons with Softmax activation (one for each digit class).
 
-4. Forward Propagation
+3. Forward Propagation
+
 -> Input data is passed through the network to compute predictions.
+
 -> The hidden layer applies the ReLU activation function to introduce non-linearity.
+
 -> The output layer uses the Softmax activation function to produce probabilities for each digit class.
 
-5. Loss Calculation
+4. Loss Calculation
+
 -> The cross-entropy loss is computed to measure the difference between the predicted probabilities and the true labels.
+
 -> This loss is minimized during training to improve the model's accuracy.
 
-6. Backward Propagation
+5. Backward Propagation
+
 -> Gradients of the loss concerning the weights and biases are computed using the chain rule.
+
 -> These gradients are used to update the weights and biases via gradient descent.
 
-7. Training
+6. Training
+
 -> The model is trained using mini-batch gradient descent:
+
 -> The dataset is divided into small batches.
+
 -> For each batch, forward and backward propagation are performed.
+
 -> Weights and biases are updated iteratively over multiple epochs.
+
 -> Training progress is monitored by tracking the loss after each epoch.
 
-8. Evaluation
+7. Evaluation
+   
 -> After training, the model's performance is evaluated on the test dataset.
+   
 -> Predictions are made by selecting the class with the highest probability from the Softmax output.
+   
 -> Accuracy is calculated as the percentage of correctly classified images.
