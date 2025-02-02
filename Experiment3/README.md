@@ -1,3 +1,5 @@
+# README
+
 ## Overview
 This repository contains deep learning models and associated resources. It includes implementations of various architectures, training scripts, and datasets used for experiments.
 
@@ -10,6 +12,13 @@ The objective of this lab is to implement Convolutional Neural Networks (CNNs) t
 Additionally, the best CNN model for both datasets will be compared with a pre-trained ResNet-18 model.
 
 ## Features
+- Pretrained models for quick inference
+- Custom model training scripts
+- Dataset preprocessing utilities
+- Performance evaluation tools
+
+## Dataset
+Cats vs. Dogs Dataset: [Kaggle - Dogs vs. Cats](https://www.kaggle.com/datasets/ayushchaudhary2411/dogs-vs-cats)
 - Pretrained models for quick inference
 - Custom model training scripts
 - Dataset preprocessing utilities
@@ -36,4 +45,7 @@ python infer.py --model checkpoint.pth --input sample.jpg
 
 ## Contributing
 Feel free to open issues and submit pull requests. Follow the contribution guidelines outlined in `CONTRIBUTING.md`.
+
+## License
+This project is licensed under the MIT License. See `LICENSE` for details.
 
