@@ -1,41 +1,38 @@
 # Neural Network Classification with NumPy
 
-This project demonstrates how to train a neural network from scratch using **NumPy** to classify two different types of datasets: a **linearly separable dataset** (circles) and a **non-linearly separable dataset** (moons). The implementation avoids using high-level deep learning frameworks like TensorFlow or PyTorch, focusing instead on fundamental concepts such as **forward/backward propagation**, **activation functions**, and **gradient descent**.
+This repository demonstrates how to build and train neural networks from scratch using **NumPy** to classify two types of datasets:
+1. **Linearly Separable Dataset (Circles)**: A simple neural network without a hidden layer.
+2. **Non-Linearly Separable Dataset (Moons)**: A neural network with a hidden layer and ReLU activation.
+
+The implementation avoids high-level deep learning frameworks like TensorFlow or PyTorch, focusing instead on core concepts such as **forward/backward propagation**, **activation functions**, and **gradient descent**.
 
 ---
 
-## Key Steps
-
-### 1. **Linearly Separable Dataset (Circles)**
-- **Dataset**: A synthetic dataset generated using `sklearn.datasets.make_circles`.
-- **Model Architecture**:
-  - **Input Layer**: 2 neurons (one for each feature).
-  - **Output Layer**: 1 neuron with Sigmoid activation (for binary classification).
+## Features
+- **Circle Dataset**:
+  - Linearly separable dataset generated using `sklearn.datasets.make_circles`.
+  - Neural network with **no hidden layer** and **Sigmoid activation** for binary classification.
+- **Moon Dataset**:
+  - Non-linearly separable dataset generated using `sklearn.datasets.make_moons`.
+  - Neural network with a **hidden layer** and **ReLU activation** for binary classification.
 - **Training**:
-  - The model is trained without a hidden layer since the dataset is linearly separable.
-  - Forward propagation computes predictions using the Sigmoid activation function.
-  - Backward propagation updates weights and biases using gradient descent.
-  - Binary cross-entropy loss is used to measure the difference between predictions and true labels.
-
-### 2. **Non-Linearly Separable Dataset (Moons)**
-- **Dataset**: A synthetic dataset generated using `sklearn.datasets.make_moons`.
-- **Model Architecture**:
-  - **Input Layer**: 2 neurons (one for each feature).
-  - **Hidden Layer**: 4 neurons with ReLU activation to introduce non-linearity.
-  - **Output Layer**: 1 neuron with Sigmoid activation (for binary classification).
-- **Training**:
-  - The model is trained with a hidden layer to handle the non-linear decision boundary.
-  - Forward propagation computes predictions using ReLU for the hidden layer and Sigmoid for the output layer.
-  - Backward propagation updates weights and biases using gradient descent.
-  - Binary cross-entropy loss is used to measure the difference between predictions and true labels.
+  - Mini-batch gradient descent for optimization.
+  - Binary cross-entropy loss for both datasets.
+- **Visualization**:
+  - Decision boundaries and training progress are visualized using `matplotlib`.
 
 ---
 
-## Usage
+## Repository Link
+🔗 [https://github.com/AyushChaudhary2003/Deep-Learning/tree/main/Experiment2](https://github.com/AyushChaudhary2003/Deep-Learning/tree/main/Experiment2)
+
+---
+
+## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/numpy-neural-network.git
-   cd numpy-neural-network
+   git clone https://github.com/AyushChaudhary2003/Deep-Learning.git
+   cd Deep-Learning/Experiment2
    ```
 
 2. Install the required dependencies:
@@ -43,15 +40,17 @@ This project demonstrates how to train a neural network from scratch using **Num
    pip install numpy scikit-learn matplotlib
    ```
 
-3. Run the scripts to train and evaluate the models:
-   - For the **circles dataset** (without hidden layer):
-     ```bash
-     python train_circles.py
-     ```
-   - For the **moons dataset** (with hidden layer):
-     ```bash
-     python train_moons.py
-     ```
+---
+
+## Usage
+- To train the model on the **circles dataset** (no hidden layer):
+  ```bash
+  python train_circles.py
+  ```
+- To train the model on the **moons dataset** (with hidden layer):
+  ```bash
+  python train_moons.py
+  ```
 
 ---
 
@@ -83,3 +82,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Feel free to contribute or report issues! 🚀
+
+---
+
+This version includes your repository link and is ready to be used in your `README.md`. Let me know if you need further tweaks! 😊
