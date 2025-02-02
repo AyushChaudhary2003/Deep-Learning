@@ -26,3 +26,6 @@ This project explores how neural networks classify non-linearly separable data u
 - Run the script in a **Python environment** with required libraries (`numpy`, `matplotlib`, `sklearn`).
 - Observe **accuracy differences** and **decision boundary plots**.
 
+## 6. GitHub Repository
+- Full code available at:  
+  [GitHub Repository](https://github.com/AyushChaudhary2003/Deep-Learning/tree/main/Experiment2)
