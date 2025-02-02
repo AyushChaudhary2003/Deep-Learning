@@ -1,37 +1,28 @@
-1. **Dataset**  
+# Neural Network Decision Boundaries on the "Circles" Dataset
 
-- Generates a synthetic dataset using `make_circles` with 1000 samples.  
+## Overview
+This project explores how neural networks classify non-linearly separable data using the `make_circles` dataset. It compares a simple perceptron (no hidden layers) with a deeper model using a hidden layer and ReLU activation.
 
-- Adds noise to introduce variation.  
+## 1. Dataset
+- Generates a synthetic dataset using `make_circles` with **1000 samples**.
+- Adds **noise** to introduce variation.
+- Splits the dataset into **80% training** and **20% testing**.
 
-- Splits the dataset into 80% training and 20% testing.  
+## 2. Model 1: No Hidden Layer (Linear Classifier)
+- Uses `MLPClassifier` with **no hidden layers** (`hidden_layer_sizes=()`).
+- Uses **identity activation function** (linear model).
+- Expected to have **low accuracy** due to dataset non-linearity.
 
-2. **Model 1: No Hidden Layer (Linear Classifier)**  
+## 3. Model 2: Single Hidden Layer with ReLU Activation
+- Uses `MLPClassifier` with **a single hidden layer** (`hidden_layer_sizes=(5,)`).
+- Applies **ReLU activation** to introduce non-linearity.
+- Expected to perform **significantly better** than Model 1.
 
-- Uses `MLPClassifier` with no hidden layers (`hidden_layer_sizes=()`).  
+## 4. Visualization
+- **Plots decision boundaries** for both models.
+- **Compares** how well each model separates the data.
 
-- Uses identity activation function (linear model).  
-
-- Expected to have low accuracy due to dataset non-linearity.  
-
-3. **Model 2: Single Hidden Layer with ReLU Activation**  
-
-- Uses `MLPClassifier` with a single hidden layer (`hidden_layer_sizes=(5,)`).  
-
-- Applies ReLU activation to introduce non-linearity.  
-
-- Expected to perform significantly better than Model 1.  
-
-4. **Visualization**  
-
-- Plots decision boundaries for both models.  
-
-- Compares how well each model separates the data.  
-
-5. **Execution Instructions**  
-  
-- Run the script in a Python environment with required libraries (`numpy`, `matplotlib`, `sklearn`).  
-
-- Observe accuracy differences and decision boundary plots.  
-
+## 5. Execution Instructions
+- Run the script in a **Python environment** with required libraries (`numpy`, `matplotlib`, `sklearn`).
+- Observe **accuracy differences** and **decision boundary plots**.
 
