@@ -1,4 +1,5 @@
 =>Overview<=
+
 This project demonstrates how to build and train a simple neural network from scratch using only NumPy to classify handwritten digits from the MNIST dataset. The MNIST dataset consists of 28x28 grayscale images of digits (0–9), and the goal is to correctly classify these images into their respective digit labels.
 
 The implementation avoids using high-level deep learning frameworks like TensorFlow or PyTorch, focusing instead on fundamental concepts such as forward/backward propagation, activation functions, and gradient descent.
