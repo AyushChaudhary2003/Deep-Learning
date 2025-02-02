@@ -10,6 +10,7 @@ The implementation avoids using high-level deep learning frameworks like TensorF
 
 ### 1. Dataset Preparation
 - The MNIST dataset is loaded from IDX files, which contain images and labels.
+- Dataset Link 🔗 [https://www.kaggle.com/datasets/hojjatk/mnist-dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
 - Each 28x28 image is flattened into a 784-dimensional vector.
 - Pixel values are normalized to the range `[0, 1]` by dividing by 255.
 - Labels are one-hot encoded to represent each digit as a 10-dimensional vector.
