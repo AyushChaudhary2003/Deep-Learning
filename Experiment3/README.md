@@ -40,10 +40,3 @@ For inference, use:
 ```bash
 python infer.py --model checkpoint.pth --input sample.jpg
 ```
-
-## Contributing
-Feel free to open issues and submit pull requests. Follow the contribution guidelines outlined in `CONTRIBUTING.md`.
-
-## License
-This project is licensed under the MIT License. See `LICENSE` for details.
-
