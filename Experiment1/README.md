@@ -46,12 +46,16 @@ A simple 2-layer neural network is implemented:
 - Accuracy is calculated as the percentage of correctly classified images.
 
 ---
+## Repository Link
+🔗 [https://github.com/AyushChaudhary2003/Deep-Learning/tree/main/Experiment2](https://github.com/AyushChaudhary2003/Deep-Learning/tree/main/Experiment2)
 
-## Usage
+---
+
+## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mnist-numpy.git
-   cd mnist-numpy
+   git clone https://github.com/AyushChaudhary2003/Deep-Learning.git
+   cd Deep-Learning/Experiment2
    ```
 
 2. Install the required dependencies:
