@@ -70,11 +70,6 @@ The implementation avoids high-level deep learning frameworks like TensorFlow or
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Acknowledgments
 - The synthetic datasets are generated using `sklearn.datasets`.
 - This implementation is inspired by foundational concepts in deep learning and neural networks.
@@ -82,7 +77,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Feel free to contribute or report issues! 🚀
-
----
-
-This version includes your repository link and is ready to be used in your `README.md`. Let me know if you need further tweaks! 😊
