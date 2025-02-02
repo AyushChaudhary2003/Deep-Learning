@@ -55,7 +55,7 @@ A simple 2-layer neural network is implemented:
 1. Clone the repository:
    ```bash
    git clone https://github.com/AyushChaudhary2003/Deep-Learning.git
-   cd Deep-Learning/Experiment2
+   cd Deep-Learning/Experiment1
    ```
 
 2. Install the required dependencies:
