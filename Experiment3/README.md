@@ -1,5 +1,3 @@
-# README
-
 ## Overview
 This repository contains deep learning models and associated resources. It includes implementations of various architectures, training scripts, and datasets used for experiments.
 
