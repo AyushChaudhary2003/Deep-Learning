@@ -83,11 +83,6 @@ A simple 2-layer neural network is implemented:
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Acknowledgments
 - The MNIST dataset is sourced from [Yann LeCun's website](http://yann.lecun.com/exdb/mnist/).
 - This implementation is inspired by foundational concepts in deep learning and neural networks.
